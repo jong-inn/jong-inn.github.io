@@ -13,12 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: 
+title: Jong Inn Park
 email: park2838@umn.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Hi! I'm Jong Inn. I go by Jong in the US. Welcome to my personal website!
 github_username: jong-inn
-minimal_mistakes_skin: default
+minimal_mistakes_skin: dark
 search: true
 
 # Build settings
@@ -100,6 +100,13 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _projects
+  # - scope:
+  #     path: ""
+  #     type: posts
+  #   values:
+  #     layout: single
+  #     author_profile: true
 
 # category_archive:
 #   type: liquid

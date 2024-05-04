@@ -3,8 +3,8 @@ main:
     url: /about/
   - title: "News"
     url: /news/
-  - title: "Projects"
-    url: /projects/
-  - title: "Publications"
-    url: /publications/
+  # - title: "Projects"
+  #   url: /projects/
+  # - title: "Publications"
+  #   url: /publications/
   

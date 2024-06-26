@@ -31,7 +31,7 @@ Currently, I am developing a tool aimed at assisting NLP researchers to create c
 #### Professional Experience
 [Piper Sandler](https://www.pipersandler.com/), a prestigious investment bank established in 1895 in Minneapolis, was where I completed my most recent internship. There, I designed a prototype for displaying topic models and sentiment analysis of earnings call transcripts using [Streamlit](https://streamlit.io/) and developed Python scraping pipelines with [Scrapy](https://scrapy.org/) to gather public financial data for the Equity Capital Market group.
 
-Before pursuing my master’s degree, I served as a Data Analyst at [Samsung Card](https://www.samsungcard.com/company/english/main/UHPPCI0245M0.jsp) in Seoul, Korea, for over three years. My most significant project involved developing an automated call quality-assurance system using text classification models, which dramatically increased monitoring coverage from 1% to 100% of monthly calls and significantly reduced operational costs.
+Before pursuing my master’s degree, I worked as a Data Analyst at [Samsung Card](https://www.samsungcard.com/company/english/main/UHPPCI0245M0.jsp) in Seoul, Korea, for over three years. My most significant project involved developing an automated call quality-assurance system using text classification models, which dramatically increased monitoring coverage from 1% to 100% of monthly calls and significantly reduced operational costs.
 
 ---
 

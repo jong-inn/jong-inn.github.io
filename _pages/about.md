@@ -6,16 +6,13 @@ layout: single
 ---
 
 <figure style="width: 180px" class="align-right">
-  <img src="/assets/images/me.jpg" alt="">
-  <div class="more-info">
-    <p>Saint Paul, MN</p>
-  </div>
+  <img src="/assets/images/grad.jpg" alt="">
 </figure>
 
 
 ### Hi there! 🙌
 
-I'm **Jong Inn Park** **(박종인)**, commonly known as **Jong** in the US. I am currently a master’s student studying [Data Science](https://cse.umn.edu/datascience) at the [University of Minnesota](https://twin-cities.umn.edu/), where I work under the guidance of [Prof. Dongyeop Kang](https://dykang.github.io/) in the [Minnesota NLP Lab](https://minnesotanlp.github.io/).
+I'm **Jong Inn Park** **(박종인)**, commonly known as **Jong** in the US. I am currently a master’s student studying [Data Science](https://cse.umn.edu/datascience) at the [University of Minnesota](https://twin-cities.umn.edu/), where I work under the guidance of [Prof. Dongyeop Kang](https://dykang.github.io/) in the [Minnesota NLP Lab](https://minnesotanlp.github.io/). I also collaborated with [Prof. Jisu Huh](https://cla.umn.edu/about/directory/profile/jhuh), who leads the Minnesota Computational Advertising Laboratory ([MCAL](https://mcal.umn.edu/)).
 
 ---
 

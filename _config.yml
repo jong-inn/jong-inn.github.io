@@ -59,7 +59,7 @@ author:
   name    : "Jong Inn Park"
   avatar  : "/assets/images/baseball.JPG"
   bio     : "MS in Data Science @ UMN-TC"
-  location: "St. Paul, MN"
+  location: "Minneapolis, MN"
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
@@ -76,9 +76,9 @@ author:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:park2838@umn.edu"
-    - label: "Download Resume"
+    - label: "Download CV"
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/files/resume_jong_inn_park_v1.2.pdf"
+      url: "/assets/files/cv_jong_inn_park_v0.1.pdf"
     
 collections:
   news:

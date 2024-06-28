@@ -2,9 +2,3 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
-
-section.page__content {
-  p {
-    font-size: $type-size-5b;
-  }
-}

@@ -1,0 +1,53 @@
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  {% assign reversed_projects = site.projects | reverse %}
+  {% for project in reversed_projects %}
+  {% for cat in project.categories %}
+  {% if cat == 'project' %}
+  <tr>
+    <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+      {% if project.image %}
+        <img src="{{project.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+      {% else %}
+        <img src="/assets/figures/default_gear.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+      {% endif %}
+    </td>
+    <td style="padding:2.5%;width:75%;vertical-align:middle">
+      <h3 style="color:#339FFF;">{{project.title}}</h3>
+      <br>
+      {{project.authors}}
+      <br>
+      <em>{{project.venue}}</em>, {{ project.date | date: "%Y" }}
+      <br>
+      {% if project.arxiv %}
+      <i class="far fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;<a href="{{project.arxiv}}">arXiv</a> /
+      {% endif %}
+      {% if project.page %}
+      <i class="fas fa-fw fa-link" aria-hidden="true"></i>&nbsp;<a href="{{project.page}}">project page</a> /
+      {% endif %}
+      {% if project.paper %}
+      <i class="far fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;<a href="{{project.paper}}">paper</a> /
+      {% endif %}
+      {% if project.video %}
+      <i class="fa-regular fa-circle-play" aria-hidden="true"></i>&nbsp;<a href="{{project.video}}">video</a> /
+      {% endif %}
+      {% if project.code %}
+      <i class="fab fa-fw fa-github" aria-hidden="true"></i>&nbsp;<a href="{{project.code}}">code</a> /
+      {% endif %}
+      {% if project.poster %}
+      <i class="fa-solid fa-palette" aria-hidden="true"></i>&nbsp;<a href="{{project.poster}}">poster</a> /
+      {% endif %}
+      {% if project.slides %}
+      <i class="fa-solid fa-scroll" aria-hidden="true"></i>&nbsp;<a href="{{project.slides}}">slides</a> /
+      {% endif %}
+      {% if project.data %}
+      <i class="fa-solid fa-database" aria-hidden="true"></i>&nbsp;<a href="{{project.data}}">data</a> /
+      {% endif %}
+      <p></p>
+      {{ project.excerpt }}
+    </td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</table>
+

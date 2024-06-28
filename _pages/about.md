@@ -1,9 +1,15 @@
 ---
-permalink: /about/
+permalink: /
 title: "About"
 classes: wide
 layout: single
 ---
+
+<style>
+    section.page__content > p {
+        font-size: 18px
+    }
+</style>
 
 <figure style="width: 180px" class="align-right">
   <img src="/assets/images/grad.jpg" alt="">

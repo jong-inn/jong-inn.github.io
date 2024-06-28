@@ -1,0 +1,53 @@
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+  {% assign reversed_publications = site.publications | reverse %}
+  {% for publication in reversed_publications %}
+  {% for cat in publication.categories %}
+  {% if cat == 'research' %}
+  <tr>
+    <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+      {% if publication.image %}
+        <img src="{{publication.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+      {% else %}
+        <img src="/assets/figures/default_gear.png" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+      {% endif %}
+    </td>
+    <td style="padding:2.5%;width:75%;vertical-align:middle">
+      <h3 style="color:#339FFF;">{{publication.title}}</h3>
+      <br>
+      {{publication.authors}}
+      <br>
+      <em>{{publication.venue}}</em>, {{ publication.date | date: "%Y" }}
+      <br>
+      {% if publication.arxiv %}
+      <i class="far fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;<a href="{{publication.arxiv}}">arXiv</a> /
+      {% endif %}
+      {% if publication.page %}
+      <i class="fas fa-fw fa-link" aria-hidden="true"></i>&nbsp;<a href="{{publication.page}}">project page</a> /
+      {% endif %}
+      {% if publication.paper %}
+      <i class="far fa-fw fa-file-pdf" aria-hidden="true"></i>&nbsp;<a href="{{publication.paper}}">paper</a> /
+      {% endif %}
+      {% if publication.video %}
+      <i class="fa-regular fa-circle-play" aria-hidden="true"></i>&nbsp;<a href="{{publication.video}}">video</a> /
+      {% endif %}
+      {% if publication.code %}
+      <i class="fab fa-fw fa-github" aria-hidden="true"></i>&nbsp;<a href="{{publication.code}}">code</a> /
+      {% endif %}
+      {% if publication.poster %}
+      <i class="fa-solid fa-palette" aria-hidden="true"></i>&nbsp;<a href="{{publication.poster}}">poster</a> /
+      {% endif %}
+      {% if publication.slides %}
+      <i class="fa-solid fa-scroll" aria-hidden="true"></i>&nbsp;<a href="{{publication.slides}}">slides</a> /
+      {% endif %}
+      {% if publication.data %}
+      <i class="fa-solid fa-database" aria-hidden="true"></i>&nbsp;<a href="{{publication.data}}">data</a> /
+      {% endif %}
+      <p></p>
+      {{ publication.excerpt }}
+    </td>
+  </tr>
+  {% endif %}
+  {% endfor %}
+  {% endfor %}
+</table>
+

@@ -18,7 +18,7 @@ layout: single
 
 ### Hi there! 🙌
 
-I'm **Jong Inn Park** **(박종인)**, commonly known as **Jong** in the US. I am currently a master’s student studying [Data Science](https://cse.umn.edu/datascience) at the [University of Minnesota](https://twin-cities.umn.edu/), where I work under the guidance of [Prof. Dongyeop Kang](https://dykang.github.io/) in the [Minnesota NLP Lab](https://minnesotanlp.github.io/). I also collaborated with [Prof. Jisu Huh](https://cla.umn.edu/about/directory/profile/jhuh), who leads the Minnesota Computational Advertising Laboratory ([MCAL](https://mcal.umn.edu/)).
+I'm **Jong Inn Park** **(박종인)**, commonly known as **Jong** in the US. I work as a Research Engineer and Full Stack Web Developer at the [University of Minnesota](https://twin-cities.umn.edu/), under the mentorship of [Prof. Dongyeop Kang](https://dykang.github.io/) and [Prof. Richard N. Landers](https://rlanders.net/). I recently graduated from the [Data Science](https://cse.umn.edu/datascience) Master's program at the [University of Minnesota](https://twin-cities.umn.edu/). During the program, I conducted research under the guidance of [Prof. Dongyeop Kang](https://dykang.github.io/) in the [Minnesota NLP Lab](https://minnesotanlp.github.io/). Additionally, I collaborated with [Prof. Jisu Huh](https://cla.umn.edu/about/directory/profile/jhuh), who leads the Minnesota Computational Advertising Laboratory ([MCAL](https://mcal.umn.edu/)).
 
 ---
 

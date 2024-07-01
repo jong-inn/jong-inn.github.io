@@ -91,6 +91,12 @@ collections:
     output: true
     permalink: /:collection/:path/
 
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-M9SL4GT2Q5"
+    anonymize_ip: false # default
+
 
 # footer:
 #   links:

@@ -78,7 +78,7 @@ author:
       url: "mailto:park2838@umn.edu"
     - label: "Download CV"
       icon: "far fa-fw fa-file-pdf"
-      url: "/assets/files/cv_jong_inn_park_v0.3.pdf"
+      url: "/assets/files/cv_jong_inn_park_v0.7.pdf"
     
 collections:
   news:

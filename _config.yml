@@ -58,7 +58,7 @@ plugins:
 author:
   name    : "Jong Inn Park"
   avatar  : "/assets/images/baseball.JPG"
-  bio     : "Research Engineer & <br>Full Stack Web Developer <br>@ UMN-TC"
+  bio     : "Full Stack Web Developer <br>@ UMN-TC"
   location: "Minneapolis, MN"
   links:
     - label: "Website"
@@ -97,6 +97,9 @@ analytics:
     tracking_id: "G-M9SL4GT2Q5"
     anonymize_ip: false # default
 
+news_settings:
+  limit: 10
+  scrollable: true
 
 # footer:
 #   links:

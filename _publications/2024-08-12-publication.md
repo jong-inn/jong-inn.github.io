@@ -4,7 +4,7 @@ date: 2024-08-12
 image: /assets/figures/cobbler_pipeline.jpg
 categories: research
 authors: "Ryan Koo, Minhwa Lee, Vipul Raheja, <u><strong>Jong Inn Park</strong></u>, Zae Myung Kim, Dongyeop Kang"
-venue: "Findings of ACL"
+venue: "Findings of the Association for Computational Linguistics (ACL)"
 arxiv: https://arxiv.org/abs/2309.17012
 page: https://minnesotanlp.github.io/cobbler-project-page/
 code: https://github.com/minnesotanlp/cobbler
